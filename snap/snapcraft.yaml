@@ -1,6 +1,7 @@
 
   # After registering a name on build.snapcraft.io, commit an uncommented line:
   name: scribus-git
+  base: core24
   version: '1.7.0' 
   summary: Your Go-To Libre Desktop Publishing Application # 79 char long summary
   description: |
