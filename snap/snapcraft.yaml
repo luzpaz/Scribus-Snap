@@ -1,3 +1,5 @@
+
+# After registering a name on build.snapcraft.io, commit an uncommented line:
 name: scribus-git
 base: core22
 version: '1.7.0' 
