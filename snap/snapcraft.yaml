@@ -53,7 +53,7 @@ parts:
       - libjxl
       - libmspub
       - libpagemaker
-      - libpng
+      - libpng-dev
       - librevenge
       - libtiff
       - libvisio
