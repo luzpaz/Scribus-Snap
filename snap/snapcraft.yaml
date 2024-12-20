@@ -49,7 +49,7 @@ parts:
       - libcdr
       - libcups
       - libfreehand
-      - libjpeg
+      - libjpeg-dev
       - libjxl
       - libmspub
       - libpagemaker
