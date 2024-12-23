@@ -78,7 +78,7 @@ parts:
       - libgraphicsmagick++-q16-12
       - libharfbuzz0b
       - libhunspell-1.7-0
-      - libicu67
+      - libicu-dev
       - liblcms2-2
       - libcdr-0.1-1
       - libcups2
