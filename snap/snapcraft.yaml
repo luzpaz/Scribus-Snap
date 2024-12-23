@@ -84,7 +84,7 @@ parts:
       - libcups2
       - libfreehand-0.1-1
       - libjpeg8
-      - libjxl0.3
+      - libjxl0.3-dev
       - libmspub-0.1-1
       - libpagemaker-0.0-0
       - libpng16-16
@@ -97,7 +97,7 @@ parts:
       - libopenscenegraph-dev
       - libssl1.1
       - libpodofo0.9.7
-      - libpoppler107
+      - libpoppler-glib8
       - python3
       - qt6-base-dev-tools
       - qt6-declarative
