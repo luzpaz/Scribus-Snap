@@ -1,7 +1,7 @@
 
 # After registering a name on build.snapcraft.io, commit an uncommented line:
 name: scribus-git
-base: core22
+base: core24
 version: '1.7.0' 
 summary: Your Go-To Libre Desktop Publishing Application # 79 char long summary
 description: |
@@ -31,43 +31,92 @@ parts:
       - -DCMAKE_BUILD_WITH_INSTALL_RPATH:BOOL=FALSE
       - -DQT_PREFIX:PATH="/usr"
       - -DWANT_SVNVERSION:BOOL=YES
-      - -DWANT_CPP20:BOOL=YES
       - -DWANT_CPP20=ON
       - -DWITH_PODOFO=ON
     build-packages:
       - git
-      - boost-libs
-      - cairo
-      - fontconfig
-      - freetype2
-      - graphicsmagick
-      - harfbuzz-icu
+      - cmake
+      - build-essential
+      - libboost-all-dev
+      - libcairo2-dev
+      - libfontconfig1-dev
+      - libfreetype6-dev
+      - libgraphicsmagick++1-dev
+      - libharfbuzz-dev
       - hicolor-icon-theme
-      - hunspell
-      - icu
-      - lcms2
-      - libcdr
-      - libcups
-      - libfreehand
+      - libhunspell-dev
+      - libicu-dev
+      - liblcms2-dev
+      - libcdr-dev
+      - libcups2-dev
+      - libfreehand-dev
       - libjpeg-dev
-      - libjxl
-      - libmspub
-      - libpagemaker
+      - libjxl-dev
+      - libmspub-dev
+      - libpagemaker-dev
       - libpng-dev
-      - librevenge
-      - libtiff
-      - libvisio
-      - libqxp
+      - librevenge-dev
+      - libtiff-dev
+      - libvisio-dev
+      - libqxp-dev
+      - libxml2-dev
+      - libzmf-dev
+      - libopenscenegraph-dev
+      - libssl-dev
+      - libpodofo-dev
+      - libpoppler-dev
+      - python3
+      - qt6-5compat-dev
+      - qt6-base-dev
+      - qt6-declarative-dev
+      - qt6-imageformats-dev
+      - qt6-svg-dev
+      - zlib1g-dev
+    stage-packages:
+      - libboost1.74.0
+      - libcairo2
+      - libfontconfig1
+      - libfreetype6
+      - libgraphicsmagick++-q16-12
+      - libharfbuzz0b
+      - libhunspell-1.7-0
+      - libicu67
+      - liblcms2-2
+      - libcdr-0.1-1
+      - libcups2
+      - libfreehand-0.1-1
+      - libjpeg8
+      - libjxl0.3
+      - libmspub-0.1-1
+      - libpagemaker-0.0-0
+      - libpng16-16
+      - librevenge-0.0-0
+      - libtiff5
+      - libvisio-0.1-1
+      - libqxp-0.0-0
       - libxml2
-      - libzmf
-      - openscenegraph
-      - openssl
-      - podofo
-      - poppler
-      - python
+      - libzmf-0.0-0
+      - libopenscenegraph160
+      - libssl1.1
+      - libpodofo0.9.7
+      - libpoppler107
+      - python3
       - qt6-5compat
       - qt6-base
       - qt6-declarative
       - qt6-imageformats
       - qt6-svg
-      - zlib
+      - zlib1g
+
+apps:
+  scribus-git:
+    command: bin/scribus-git
+    plugs:
+      - desktop
+      - desktop-legacy
+      - x11
+      - wayland
+      - opengl
+      - unity7
+      - home
+      - network
