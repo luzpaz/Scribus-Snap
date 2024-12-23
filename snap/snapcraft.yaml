@@ -65,12 +65,11 @@ parts:
       - libssl-dev
       - libpodofo-dev
       - libpoppler-dev
-      - python3
-      - qt6-5compat-dev
+      - python3-dev
       - qt6-base-dev
       - qt6-declarative-dev
-      - qt6-imageformats-dev
       - qt6-svg-dev
+      - qt6-5compat-dev
       - zlib1g-dev
     stage-packages:
       - libboost1.74.0
@@ -101,11 +100,10 @@ parts:
       - libpodofo0.9.7
       - libpoppler107
       - python3
-      - qt6-5compat
       - qt6-base
       - qt6-declarative
-      - qt6-imageformats
       - qt6-svg
+      - qt6-5compat
       - zlib1g
 
 apps:
