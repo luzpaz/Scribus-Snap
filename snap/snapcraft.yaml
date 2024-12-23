@@ -94,7 +94,7 @@ parts:
       - libqxp-0.0-0
       - libxml2
       - libzmf-0.0-0
-      - libopenscenegraph160
+      - libopenscenegraph-dev
       - libssl1.1
       - libpodofo0.9.7
       - libpoppler107
