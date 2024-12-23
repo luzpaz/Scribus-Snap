@@ -68,7 +68,7 @@ parts:
       - python3-dev
       - qt6-base-dev
       - qt6-declarative-dev
-      - qt6-svg-dev
+      - qt6-svg-dev # Correct package name for Qt SVG development
       - qt6-5compat-dev
       - zlib1g-dev
     stage-packages:
@@ -102,7 +102,7 @@ parts:
       - python3
       - qt6-base
       - qt6-declarative
-      - qt6-svg
+      - qt6-svg # Correct package name for Qt SVG runtime
       - qt6-5compat
       - zlib1g
 
