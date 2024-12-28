@@ -6,4 +6,4 @@ This snap is not affiliated with the Scribus team. Its objective is to make Scri
 ### Roadmap
 
 - [ ] Successfully create a working [snap/snapcraft.yaml](snap/snapcraft.yaml) → **WIP** any help is appreciated https://github.com/luzpaz/Scribus-Snap/issues/1
-- [ ] Ability to build test builds from patches (see the equivalent in the [FreeCAD Snap documentation](https://github.com/FreeCAD/FreeCAD-snap/blob/master/docs/index.md#build-snaps-from-freecad-branches-or-forks) https://github.com/luzpaz/Scribus-Snap/issues/2
+- [ ] Ability to build test builds from patches https://github.com/luzpaz/Scribus-Snap/issues/2
