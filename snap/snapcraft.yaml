@@ -71,7 +71,7 @@ parts:
       - qt6-5compat-dev
       - zlib1g-dev
     stage-packages:
-      - libboost1.74.0
+      - libboost1.74-all-dev
       - libcairo2
       - libfontconfig1
       - libfreetype6
