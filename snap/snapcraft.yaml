@@ -74,6 +74,9 @@ parts:
       - qt6-5compat-dev
       - qt6-tools-dev
       - qt6-svg-dev
+      - qt6-wayland-dev # Added this line for Qt6 Wayland development
+      - qt6-shadertools-dev # Added this line for Qt6 Shader Tools development
+      - libxkbcommon-dev      - libxkbcommon-dev
       - zlib1g-dev
     stage-packages:
       - libboost1.74-all-dev
@@ -111,6 +114,8 @@ parts:
       - qt6-5compat-dev
       - qt6-tools-dev # Added this line for Qt6LinguistTools
       - qt6-svg-dev # Added this line for Qt6Svg
+      - qt6-wayland # Added this line for Qt6 Wayland runtime
+      - qt6-shadertools # Added this line for Qt6 Shader Tools runtime
       - libxkbcommon-dev # Added this line for XKB
       - zlib1g
 
