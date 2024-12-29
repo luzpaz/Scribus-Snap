@@ -20,9 +20,9 @@ grade: devel # must be 'stable' to release into candidate/stable channels
 confinement: devmode # use 'strict' once you have the right plugs and slots
 
 platforms:
-  - build-on: amd64
-  - build-on: arm64
-  - build-on: armhf
+  - amd64
+  - arm64
+  - armhf
 
 parts:
   scribus-git:
