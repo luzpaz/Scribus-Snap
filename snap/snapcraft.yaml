@@ -45,6 +45,8 @@ parts:
       - libfreetype-dev
       - libgraphicsmagick++1-dev
       - libharfbuzz-dev
+      - libharfbuzz-icu0
+      - libharfbuzz-subset0
       - hicolor-icon-theme
       - libhunspell-dev
       - libicu-dev
@@ -87,6 +89,8 @@ parts:
       - libfreetype6
       - libgraphicsmagick++-q16-12t64
       - libharfbuzz0b
+      - libharfbuzz-icu0
+      - libharfbuzz-subset0
       - libhunspell-1.7-0
       - libicu-dev
       - liblcms2-2
