@@ -95,13 +95,13 @@ parts:
       - libxml2
       - libzmf-0.0-0
       - libopenscenegraph-dev
-      - libssl1.1
+      - libssl3t64
       - libpodofo0.9.8t64
       - libpoppler-glib8
       - python3
       - qt6-base-dev-tools
       - qt6-declarative-dev
-      - qt6-5compat
+      - qt6-5compat-dev
       - zlib1g
 
 apps:
