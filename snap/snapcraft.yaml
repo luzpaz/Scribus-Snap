@@ -33,6 +33,7 @@ parts:
       - -DWANT_SVNVERSION:BOOL=YES
       - -DWANT_CPP20=ON
       - -DWITH_PODOFO=ON
+      - -DQt6_FOUND=TRUE
     build-packages:
       - git
       - cmake
@@ -87,7 +88,7 @@ parts:
       - libjxl0.7
       - libmspub-0.1-1
       - libpagemaker-0.0-0
-      - libpng16-16
+      - libpng16-16t64
       - librevenge-0.0-0
       - libtiff5-dev
       - libvisio-0.1-1
