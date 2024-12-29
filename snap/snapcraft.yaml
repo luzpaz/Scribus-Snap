@@ -122,6 +122,7 @@ apps:
       - x11
       - wayland
       - opengl
-      - unity7
       - home
       - network
+      - cups-control
+      - removable-media
