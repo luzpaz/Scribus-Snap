@@ -34,7 +34,7 @@ parts:
       - -DWANT_CPP20=ON
       - -DWITH_PODOFO=ON
       - -Dpoppler_INCLUDE_DIR=/usr/include/poppler # Explicitly set the include directory for Poppler
-      - -DCMAKE_CXX_FLAGS="-I/usr/include/qt6 -I/usr/include/qt6/QtGui -I/usr/include/qt6/QtGui/qpa" # Add this line to specify the include directories for Qt6 headers
+      - -DCMAKE_CXX_FLAGS="-I/usr/include/qt6 -I/usr/include/qt6/QtGui -I/usr/include/qt6/QtGui/qpa -I/usr/include/poppler" # Add this line to specify the include directories for Qt6 headers
     build-packages:
       - git
       - cmake
@@ -67,6 +67,7 @@ parts:
       - libssl-dev
       - libpodofo-dev
       - libpoppler-dev
+      - libpoppler-private-dev
       - python3-dev
       - qt6-base-dev # Added this line for Qt6 base development
       - qt6-base-dev-tools
@@ -108,6 +109,7 @@ parts:
       - libpodofo0.9.8t64
       - libpoppler-glib8t64
       - libpoppler-cpp-dev
+      - libpoppler-private-dev
       - python3
       - qt6-base-dev # Added this line for Qt6 base development
       - qt6-base-dev-tools
