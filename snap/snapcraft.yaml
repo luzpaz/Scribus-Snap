@@ -98,10 +98,12 @@ parts:
       - libssl3t64
       - libpodofo0.9.8t64
       - libpoppler-glib8
+      - libpoppler-cpp-dev
       - python3
       - qt6-base-dev-tools
       - qt6-declarative-dev
       - qt6-5compat-dev
+      - qt6-tools-dev   # for Qt6LinguistTools
       - zlib1g
 
 apps:
