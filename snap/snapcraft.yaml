@@ -19,6 +19,11 @@ description: |
 grade: devel # must be 'stable' to release into candidate/stable channels
 confinement: devmode # use 'strict' once you have the right plugs and slots
 
+architectures:
+  - build-on: amd64
+  - build-on: arm64
+  - build-on: armhf
+
 parts:
   scribus-git:
     plugin: cmake
@@ -103,7 +108,9 @@ parts:
       - qt6-base-dev-tools
       - qt6-declarative-dev
       - qt6-5compat-dev
-      - qt6-tools-dev   # for Qt6LinguistTools
+      - qt6-tools-dev # Added this line for Qt6LinguistTools
+      - qt6-svg-dev # Added this line for Qt6Svg
+      - libxkbcommon-dev # Added this line for XKB
       - zlib1g
 
 apps:
