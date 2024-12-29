@@ -80,7 +80,7 @@ parts:
       - libcairo2
       - libfontconfig1
       - libfreetype6
-      - libgraphicsmagick++-q16-12
+      - libgraphicsmagick++-q16-12t64
       - libharfbuzz0b
       - libhunspell-1.7-0
       - libicu-dev
