@@ -33,6 +33,7 @@ parts:
       - -DWANT_SVNVERSION:BOOL=YES
       - -DWANT_CPP20=ON
       - -DWITH_PODOFO=ON
+      - -Dpoppler_INCLUDE_DIR=/usr/include/poppler # Explicitly set the include directory for Poppler
     build-packages:
       - git
       - cmake
@@ -97,7 +98,7 @@ parts:
       - libopenscenegraph-dev
       - libssl3t64
       - libpodofo0.9.8t64
-      - libpoppler-glib8
+      - libpoppler-glib8t64
       - libpoppler-cpp-dev
       - python3
       - qt6-base-dev-tools
