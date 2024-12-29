@@ -115,7 +115,7 @@ parts:
       - qt6-tools-dev # Added this line for Qt6LinguistTools
       - qt6-svg-dev # Added this line for Qt6Svg
       - qt6-wayland # Added this line for Qt6 Wayland runtime
-      - qt6-shadertools # Added this line for Qt6 Shader Tools runtime
+      - qt6-shadertools-dev # Added this line for Qt6 Shader Tools runtime
       - libxkbcommon-dev # Added this line for XKB
       - zlib1g
 
