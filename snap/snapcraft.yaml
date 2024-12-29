@@ -76,6 +76,7 @@ parts:
       - qt6-svg-dev
       - qt6-wayland-dev # Added this line for Qt6 Wayland development
       - qt6-shadertools-dev # Added this line for Qt6 Shader Tools development
+      - qt6-base-private-dev # Does this solve the qpa/qplatformnativeinterface.h issue ?
       - libxkbcommon-dev
       - zlib1g-dev
     stage-packages:
@@ -116,6 +117,7 @@ parts:
       - qt6-svg-dev # Added this line for Qt6Svg
       - qt6-wayland # Added this line for Qt6 Wayland runtime
       - qt6-shadertools-dev # Added this line for Qt6 Shader Tools runtime
+      - qt6-base-private-dev # Does this solve the qpa/qplatformnativeinterface.h issue ?
       - libxkbcommon-dev # Added this line for XKB
       - zlib1g
 
