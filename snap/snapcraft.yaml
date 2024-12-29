@@ -30,7 +30,7 @@ parts:
       - -DCMAKE_SKIP_RPATH=ON
       - -DCMAKE_BUILD_WITH_INSTALL_RPATH:BOOL=FALSE
       - -DQT_PREFIX:PATH="/usr"
-      - -DWANT_SVNVERSION:BOOL=YES
+      - -DWANT_SVNVERSION:BOOL=NO
       - -DWANT_CPP20=ON
       - -DWITH_PODOFO=ON
       - -Dpoppler_INCLUDE_DIR=/usr/include/poppler # Explicitly set the include directory for Poppler
