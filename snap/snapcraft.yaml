@@ -81,10 +81,10 @@ parts:
       - libicu-dev
       - liblcms2-2
       - libcdr-0.1-1
-      - libcups2
+      - libcups2t64
       - libfreehand-0.1-1
       - libjpeg8
-      - libjxl0.3-dev
+      - libjxl0.7
       - libmspub-0.1-1
       - libpagemaker-0.0-0
       - libpng16-16
@@ -96,11 +96,11 @@ parts:
       - libzmf-0.0-0
       - libopenscenegraph-dev
       - libssl1.1
-      - libpodofo0.9.7
+      - libpodofo0.9.8t64
       - libpoppler-glib8
       - python3
       - qt6-base-dev-tools
-      - qt6-declarative
+      - qt6-declarative-dev
       - qt6-5compat
       - zlib1g
 
