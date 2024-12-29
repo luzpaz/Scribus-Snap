@@ -33,7 +33,6 @@ parts:
       - -DWANT_SVNVERSION:BOOL=YES
       - -DWANT_CPP20=ON
       - -DWITH_PODOFO=ON
-      - -DQt6_FOUND=TRUE
     build-packages:
       - git
       - cmake
