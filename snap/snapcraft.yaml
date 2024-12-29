@@ -19,11 +19,6 @@ description: |
 grade: devel # must be 'stable' to release into candidate/stable channels
 confinement: devmode # use 'strict' once you have the right plugs and slots
 
-platforms:
-  - amd64
-  - arm64
-  - armhf
-
 parts:
   scribus-git:
     plugin: cmake
