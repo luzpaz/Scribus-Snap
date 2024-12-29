@@ -34,6 +34,7 @@ parts:
       - -DWANT_CPP20=ON
       - -DWITH_PODOFO=ON
       - -Dpoppler_INCLUDE_DIR=/usr/include/poppler # Explicitly set the include directory for Poppler
+      - -DCMAKE_CXX_FLAGS="-I/usr/include/qt6" # Add this line to specify the include directory for Qt6 headers
     build-packages:
       - git
       - cmake
